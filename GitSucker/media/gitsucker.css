@@ -1,0 +1,99 @@
+body {
+  font: 13px Helvetica,arial,freesans,clean,sans-serif;
+		background-color: #f2f2f2;
+		margin: 0px;
+}
+
+.header {
+  background-color: #0075B5;
+		height:42px;
+		-webkit-box-shadow: 0 1px 3px #444;
+		-moz-box-shadow: 0 1px 3px #444;
+		box-shadow: 0 1px 3px #444;
+		font-size: 20px;
+		line-height: 40px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 15px;
+}
+
+.image_div {
+  border-radius: 4px;
+  height: 80px;
+  width: 80px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 9px;
+  border: 1px solid #bdbdbd;
+}
+
+.info_div {
+  color: #52595D;
+  width: 280px;
+  float: left;
+		margin-left: 5px
+}
+      
+.candidate {
+  width: 398px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  margin: 10px;
+		float:left;
+		background-color: #fff;
+		-webkit-box-shadow: 0 1px 3px #444;
+		-moz-box-shadow: 0 1px 3px #444;
+		box-shadow: 0 1px 3px #444;
+}
+
+.candidate:hover {
+  background-color: #efefef
+}
+ 
+.repo_count {
+  border-bottom: 1px solid #bdbdbd;
+  border-left: 1px solid #bdbdbd;
+  border-bottom-left-radius: 4px;
+  font-size: 11px;
+		font-weight: bold;
+  float:right;
+  padding: 2px 4px;
+  width: 102px;
+  color: #52595D;
+}
+   
+.icon {
+  margin: 0px 2px;
+}
+
+.authored {
+  border-right:1px solid #bdbdbd;
+  float:left;
+  margin-right:3px;
+  padding-right:2px;
+  width: 30px;
+}
+
+.relevant {
+  border-right:1px solid #bdbdbd;
+  float:left;
+  margin-right:3px;
+  padding-right:2px;
+  width: 30px;
+}
+
+.forked {
+  float:left;
+  width: 30px;
+}
+
+.txt {
+		margin: 1px 0px;
+		float:left;
+		width:100%;
+}
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
