@@ -1,3 +1,6 @@
+GitSucker v0.1
+Find 'high profile' members of a Github project.
+
 To run the script:
 python2.6 gitsucker.py project_name > gitsucker.log
 
